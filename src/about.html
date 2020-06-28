@@ -4,36 +4,35 @@
 		<title>ABOUT</title>
 		<meta charset="UTF-8"></meta>
 		<link rel="stylesheet" type="text/css" href="./styles/common-style.css"></link>
+		<link rel="stylesheet" type="text/css" href="./styles/header.css"></link>
 	</head>
 	<body>
 		<header>
 			<div class="logo">
-				Smith
-				<span>.</span>
-				CV
+				Smith<span>.</span>CV
 			</div>
 			<nav>
 				<ul>
-					<li>About</li>
-					<li>Skills</li>
-					<li>Service</li>
-					<li>Experience</li>
-					<li>Education</li>
-					<li>Portfolio</li>
-					<li>Testimonials</li>
-					<li>Contact</li>
+					<li class="active"><a href="about.html">About</a></li><!--
+					--><li><a href="skills.html">Skills</a></li><!--
+					--><li><a href="service.html">Service</a></li><!--
+					--><li><a href="experience.html">Experience</a></li><!--
+					--><li><a href="education.html">Education</a></li><!--
+					--><li><a href="portfolio.html">Portfolio</a></li><!--
+					--><li><a href="testimonials.html">Testimonials</a></li><!--
+					--><li><a href="contact.html">Contact</a></li>
 				</ul>
 				<div class="hamburger-menu">
 					<ul>
-						<li>About</li>
-						<li>Skills</li>
-						<li>Service</li>
-						<li>Experience</li>
-						<li>Education</li>
-						<li>Portfolio</li>
-						<li>Testimonials</li>
-						<li>Contact</li>
-						<li>Menu</li>
+						<li><a href="about.html">About</a></li>
+						<li><a href="skills.html">Skills</a></li>
+						<li><a href="service.html">Service</a></li>
+						<li><a href="experience.html">Experience</a></li>
+						<li><a href="education.html">Education</a></li>
+						<li><a href="portfolio.html">Portfolio</a></li>
+						<li><a href="testimonials.html">Testimonials</a></li>
+						<li><a href="contact.html">Contact</a></li>
+						<li><a onclick="click_menu()">Menu</a></li>
 					</ul>
 				</div>
 			</nav>
@@ -97,5 +96,6 @@
 		<footer>
 			Copyright ©2020 All rights reserved | This template is made with by <a href="https://colorlib.com/">Colorlib</a>
 		</footer>
+		<script src="./scripts/header.js"></script>
 	</body>
 </html>
